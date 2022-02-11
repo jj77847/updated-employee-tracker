@@ -1,8 +1,8 @@
-DROP DATABASE IF EXISTS library_db;
+DROP DATABASE IF EXISTS updated-employee-tracker_db;
 
-CREATE DATABASE library_db;
+CREATE DATABASE updated-employee-tracker_db;
 
-USE library_db;
+USE updated-employee-tracker_db;
 
 CREATE TABLE `books` (
   `id` INT NOT NULL AUTO_INCREMENT,
